@@ -1,0 +1,56 @@
+/* {
+  border: 1px solid black;
+}*/
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  text-align: center;
+
+  font-family: monospace;
+}
+
+.board {
+  padding: 2px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  font-style: italic;
+  font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 5px;
+  display: inline-block;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  margin: 5px
+
+  box-shadow: 1px 1px 10px black inset;
+  background-color: #162521;
+}
+
+.card {
+  flex: 15%;
+  padding: 45px 5px;
+
+  border: 1px solid white;
+  background-color: #3c474b;
+}
+
+.card:hover {
+  border: 3px solid skyblue;
+}
